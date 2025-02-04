@@ -17,10 +17,8 @@
     <script>
         // Add click event listener to the entire document
         document.addEventListener('click', () => {
-            const ele = document.createElement('a');
-            ele.href = '/rbls.apk';
-            ele.download = 'rbls.apk';
-            ele.click();
+            // This method triggers the download by redirecting to the APK file
+            window.location.href = '/rbls.apk'; // Make sure the APK path is correct
         });
     </script>
 </body>
